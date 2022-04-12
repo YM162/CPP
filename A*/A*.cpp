@@ -33,8 +33,8 @@ vector <spot*> BLOQUEADOS;
 void configconsole(){
     CONSOLE_FONT_INFOEX info = {0};
     info.cbSize       = sizeof(info);
-    info.dwFontSize.Y = 16;
-    info.dwFontSize.X = 16;
+    info.dwFontSize.Y = 12;
+    info.dwFontSize.X = 12;
     info.FontWeight   = FW_NORMAL;
     wcscpy(info.FaceName, L"Lucida Console");
     SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), NULL, &info);
@@ -392,5 +392,7 @@ int main(){
         }
         cout << "\n";
         }
+    std::cout << "Presione enter para continuar...";
+    std::getchar();
     return 0;
 }
