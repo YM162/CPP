@@ -1,2 +1,2 @@
 # CPP
-Programas de todo tipo para practicar C++
+Repositorio para guardar todos los pequeños programas que hago para practicar C++.
