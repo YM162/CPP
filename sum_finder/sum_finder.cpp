@@ -30,6 +30,7 @@ int main(){
     for (auto i:sum){
         std::cout << i <<" ";
     }
-
+    std::cout << "Presione enter para continuar...";
+    std::getchar();
     return 0;
 }
